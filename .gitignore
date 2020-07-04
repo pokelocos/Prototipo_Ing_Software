@@ -1,5 +1,4 @@
 # This .gitignore file should be placed at the root of your Unity project directory
-#
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
 /[Ll]ibrary/
@@ -9,8 +8,6 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
-
-#change
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
