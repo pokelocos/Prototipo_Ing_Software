@@ -16,6 +16,7 @@ public class MuseumRoomSwitcher : MonoBehaviour
     void Start()
     {
         idRoom = 0;
+
     }
 
     // Update is called once per frame
