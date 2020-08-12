@@ -31,6 +31,7 @@ public class PieceHandler : MonoBehaviour
             force -= force * freno * Time.deltaTime;
         }
     }
+
     private void OnMouseDown()
     {
         last = Input.mousePosition;

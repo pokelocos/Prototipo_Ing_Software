@@ -247,6 +247,7 @@ GameObject:
   - component: {fileID: 2359078024991848765}
   - component: {fileID: 2359078024991848754}
   - component: {fileID: 5351495354327538934}
+  - component: {fileID: 6706331176178586421}
   m_Layer: 5
   m_Name: Element_Info_Panel
   m_TagString: Untagged
@@ -356,3 +357,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6706331176178586421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2359078024991848752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62788edddba3f3d4aa585b8fe917a221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameDisplay: {fileID: 2359078024049855708}
+  descriptionDisplay: {fileID: 2359078022968278867}
+  imageDisplay: {fileID: 2359078023711472120}
