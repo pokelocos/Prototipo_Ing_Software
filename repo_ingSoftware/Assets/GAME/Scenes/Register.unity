@@ -861,6 +861,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 71.12437
       objectReference: {fileID: 0}
+    - target: {fileID: 3818962587840785234, guid: 38167b27ef09f524183d8f938b3a55a7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4431129168542258059, guid: 38167b27ef09f524183d8f938b3a55a7,
         type: 3}
       propertyPath: m_Name
@@ -2135,6 +2140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MenuOption
+      objectReference: {fileID: 0}
+    - target: {fileID: 8626509082534559071, guid: 55908eeed6d96fc469412829730b887c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55908eeed6d96fc469412829730b887c, type: 3}
