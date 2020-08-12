@@ -32,27 +32,9 @@ public class MuseumRoomSwitcher : MonoBehaviour
             if (Physics.Raycast(raycast, out raycastHit))
             {
                 #region idRoom0
-                if (raycastHit.collider.name == "Arrow_O" && idRoom == 0)
-                {
-                    museumRooms[idRoom].SetActive(false);
-                    idRoom = 4;
-                    arrowDown.SetActive(false);
-                    arrowUp.SetActive(false);
-                    arrowLeft.SetActive(false);
-                    museumRooms[idRoom].SetActive(true);
-                    arrowRight.SetActive(true);
-                }
-                if (raycastHit.collider.name == "Arrow_E" && idRoom == 1)
-                {
-                    museumRooms[idRoom].SetActive(false);
-                    idRoom = 2;
-                    arrowDown.SetActive(false);
-                    arrowUp.SetActive(false);
-                    arrowRight.SetActive(false);
-                    museumRooms[idRoom].SetActive(true);
-                    arrowLeft.SetActive(true);
-
-                }
+                Debug.Log(raycastHit.collider.name);
+                
+                
                 if (raycastHit.collider.name == "Arrow _N" && idRoom == 0)
                 {
                     museumRooms[idRoom].SetActive(false);
@@ -64,16 +46,40 @@ public class MuseumRoomSwitcher : MonoBehaviour
                     arrowDown.SetActive(true);
                     
                 }
+                if (raycastHit.collider.name == "Arrow_E" && idRoom == 0)
+                {
+                    museumRooms[idRoom].SetActive(false);
+                    idRoom = 2;
+                    arrowDown.SetActive(false);
+                    arrowUp.SetActive(false);
+                    arrowRight.SetActive(false);
+                    museumRooms[idRoom].SetActive(true);
+                    arrowLeft.SetActive(true);
+
+                }
                 if (raycastHit.collider.name == "Arrow_S" && idRoom == 0)
                 {
                     museumRooms[idRoom].SetActive(false);
                     idRoom = 3;
                     arrowDown.SetActive(false);
-                    arrowRight.SetActive(true);
+                    arrowRight.SetActive(false);
                     arrowLeft.SetActive(false);
                     museumRooms[idRoom].SetActive(true);
                     arrowUp.SetActive(true);
                 }
+
+                if (raycastHit.collider.name == "Arrow_O" && idRoom == 0)
+                {
+                    museumRooms[idRoom].SetActive(false);
+                    idRoom = 4;
+                    arrowDown.SetActive(false);
+                    arrowUp.SetActive(false);
+                    arrowLeft.SetActive(false);
+                    museumRooms[idRoom].SetActive(true);
+                    arrowRight.SetActive(true);
+                }
+               
+                
                 #endregion
                 #region idRoom1
                 if (raycastHit.collider.name == "Arrow_S" && idRoom == 1)
@@ -88,7 +94,7 @@ public class MuseumRoomSwitcher : MonoBehaviour
                 }
                 #endregion
                 #region idRoom2
-                if (raycastHit.collider.name == "Arrow_E" && idRoom == 2)
+                if (raycastHit.collider.name == "Arrow_O" && idRoom == 2)
                 {
                     museumRooms[idRoom].SetActive(false);
                     idRoom = 0;
@@ -112,7 +118,7 @@ public class MuseumRoomSwitcher : MonoBehaviour
                 }
                 #endregion
                 #region idRoom4
-                if (raycastHit.collider.name == "Arrow_O" && idRoom == 4)
+                if (raycastHit.collider.name == "Arrow_E" && idRoom == 4)
                 {
                     museumRooms[idRoom].SetActive(false);
                     idRoom = 0;
