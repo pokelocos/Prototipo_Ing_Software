@@ -1187,6 +1187,7 @@ GameObject:
   - component: {fileID: 841270543}
   - component: {fileID: 841270542}
   - component: {fileID: 841270541}
+  - component: {fileID: 841270544}
   m_Layer: 5
   m_Name: Button_Info_Museo
   m_TagString: Untagged
@@ -1257,7 +1258,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 841270542}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 841270544}
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Museum
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &841270542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1295,6 +1307,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841270539}
   m_CullTransparentMesh: 0
+--- !u!114 &841270544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841270539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee5d8e32cc15e049a758dfcdf1be733, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &941130869
 GameObject:
   m_ObjectHideFlags: 0
