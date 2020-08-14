@@ -3098,7 +3098,7 @@ GameObject:
   - component: {fileID: 1631939341}
   - component: {fileID: 1631939340}
   m_Layer: 0
-  m_Name: MuseumRoomSwitcher
+  m_Name: GameplayManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3113,7 +3113,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1631939339}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caef7441201da4c4798dd68b0dded08e, type: 3}
+  m_Script: {fileID: 11500000, guid: c3bdfba1dce101b45a040f730c28516d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   museumRooms:
@@ -3141,7 +3141,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1778038022
+--- !u!21 &1965226824
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -3150,7 +3150,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'Target_BWMaterial
 
-    -122206'
+    -1548'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -3204,7 +3204,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1778038022}
+      objectReference: {fileID: 1965226824}
     - target: {fileID: 2733905034899825595, guid: 68e86078e3223ba4f9d68e5bae900579,
         type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
